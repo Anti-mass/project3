@@ -16,6 +16,41 @@ body {
     background: linear-gradient(to right, #6a2c21, #e5a031);
 }
 
+@media (min-width: 600px) and (max-width: 992px) {
+    body {
+        font-size: 14px;
+        
+    }
+    p {
+        font-size: small;
+        color: #007bff;
+    }
+    .remove-wrap{
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body {
+        font-size: 14px;
+        color: #d61bd3;
+    }
+    p {
+        color: #000000;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 1.5%;
+    }
+    h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 1.5%;
+    }
+    .remove-wrap{
+        text-wrap: nowrap;
+    }
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -25,22 +60,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 1.5%;
-}
 
-p {
-    color: #000000;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 1.5%;
-}
-
-.remove-wrap{
-    text-wrap: nowrap;
-}
 
 nav{
     text-align: center;
