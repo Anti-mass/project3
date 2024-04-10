@@ -1,0 +1,122 @@
+
+body {
+    background-color: #f7f7f7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #ff725f, #c9b18b);
+}
+
+.gradient-backgroundTreats {
+    background: linear-gradient(to right, #ffdf5f, #f4660e);
+}
+
+.gradient-backgroundDrip {
+    background: linear-gradient(to right, #6a2c21, #e5a031);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #852727;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 1.5%;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1.5%;
+}
+
+.remove-wrap{
+    text-wrap: nowrap;
+}
+
+nav{
+    text-align: center;
+    background-color: #b868b0;
+    border-radius: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2%; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a74e4e; 
+    padding: 1% 4%;
+}
+
+.picfloatsL {
+    float: left;
+}
+
+.picfloatsR {
+    float: right;
+}
+
+nav ul li a:hover {
+    background-color: #f05555; 
+}
+
+.center {
+    text-align: center;
+}
+
+.page {
+    margin: 10%;
+}
+
+.centerPage{
+    text-align: center;
+    margin: 10%;
+}
+
+section{
+    text-align: center;
+}
+
+.textblock{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    color: #007bff;
+}
+
+.subtitle{
+    text-align: left;
+    margin-left: 29%; 
+}
+
+a:hover {
+ 
+    color: #d51ec3;
+}
+
+a:visited{
+    color: #f0f0f0;
+}
