@@ -27,6 +27,7 @@ body {
     }
     .remove-wrap{
         text-wrap: nowrap;
+        color: #852727;
     }
 }
 
@@ -59,8 +60,6 @@ body {
     border-radius: 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-
 
 nav{
     text-align: center;
@@ -97,12 +96,17 @@ nav ul li a {
     float: right;
 }
 
+.anime-images {
+    position: relative;
+}
+
 nav ul li a:hover {
     background-color: #f05555; 
 }
 
 .center {
     text-align: center;
+    position: relative;
 }
 
 .page {
@@ -116,6 +120,7 @@ nav ul li a:hover {
 
 section{
     text-align: center;
+    position: relative;
 }
 
 .textblock{
