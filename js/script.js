@@ -1,12 +1,8 @@
-var map;
 
-function initMap(){
-	// alert('it works');
-	var mapElement = document.getElementById('map');
-	var mapOptions = {
-		center: google.maps.LatLng(-37.83024850895685, 144.98011740975244),
-		zoom: 8
-	};
-	map = new google.maps.Map(mapElement, mapOptions);
+function initMap() {
+  var mapOptions = {
+      center: { lat:-37.83024850895685, lng: 144.98011740975244},
+      zoom: 30
+  };
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
-
