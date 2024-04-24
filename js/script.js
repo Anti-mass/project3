@@ -1,13 +1,12 @@
 var map;
 
-async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-  
+function initMap(){
+	// alert('it works');
+	var mapElement = document.getElementById('map');
+	var mapOptions = {
+		center: google.maps.LatLng(-37.83024850895685, 144.98011740975244),
+		zoom: 8
+	};
+	map = new google.maps.Map(mapElement, mapOptions);
 }
-initMap();
-google.maps.event.addDomListener(window, 'load', initMap);
+
